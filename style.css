@@ -1,37 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #01e4f4;
+    background-image: url("./65z3ET.jpg");
+    
 }
-body {
-    font-family: Arial, sans-serif;
-      /* background-color: #f0f0f0; */
-  
-    background-image: url('weather1.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Set the height to fill the viewport */
-    margin: 0; /* Remove default margin */
-    padding: 0; 
-  }
 
 .container {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    background-image: url("./rain.jpg");
+    background-size: cover;
+    background-color: rgba(220, 230, 86, 0.5); /* Set the background color to be transparent */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
-    margin-top: 105px;
+    margin-top: 150px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width:140px;
+    height:30px;
+    border-radius: 5px;
+    /* padding-top: 2px; */
+    /* margin-left: 120px; */
 }
 
+
 input[type="text"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -46,9 +48,31 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.sun{
+    background-image: url("./sun.jpg");
+    background-size: cover;
+   
+}
+.sunb{
+    background-image: url("./65z3ET.jpg");
+}
+.rain{
+    background-image: url(./rain.jpg);
+    background-size: cover;
+}
+/* body background */
+.rainb{
+    background-image: url(./Weather-Image-Download-Free.jpg);
+}
 .weather-info {
     margin-top: 20px;
+    color:rgb(0, 0, 0);
+}
+.hide{
+    display: none;
+}
+.error{
+    display: none;
 }
 
 /* Add more styles as needed */

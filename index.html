@@ -8,14 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>Weather App</h1>
+        <center><h1>Weather App</h1></center>
         <input type="text" id="locationInput" placeholder="Enter a city">
         <button id="searchButton">Search</button>
-        <div class="weather-info">
-            <h2 id="location"></h2>
+        <div class="weather-info hide">
+            <h3 id="location"></h3>
+            <p class="lat"></p>
+            <p class="lon"></p>
             <p id="temperature"></p>
             <p id="description"></p>
         </div>
+        <p class="error"></p>
     </div>
     <script src="app.js"></script>
 </body>
